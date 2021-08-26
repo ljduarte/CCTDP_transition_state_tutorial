@@ -1,0 +1,472 @@
+ AIMExt (Version 17.11.14, Professional)
+ Portions Copyright (c) 1997-2017 by Todd A. Keith
+ AIMExt is a component of the AIMAll package ( http://aim.tkgristmill.com )
+
+ TP:  64-bit Linux
+
+ AIMExt is a heavily modified and extended version of the EXTREME program
+ developed by members of R.F.W. Bader's research group
+
+ Much of the Quantum Theory of Atoms in Molecules (QTAIM) is described in the book:
+   "Atoms in Molecules - A Quantum Theory"
+   R.F.W. Bader, Oxford University Press, Oxford, 1990
+
+ For additional references see:  http://aim.tkgristmill.com/references.html
+
+ Wfn File:  /home/bruns/gaussian_inputs/GAUSSIAN+YH_2.wfn
+ ExtOut File:  /home/bruns/gaussian_inputs/GAUSSIAN+YH_2.extout
+ Mgp File:  /home/bruns/gaussian_inputs/GAUSSIAN+YH_2.mgp
+
+ MgpViz File:  /home/bruns/gaussian_inputs/GAUSSIAN+YH_2.mgpviz
+
+ Wfn Title:   title line                                                                    
+ Job Title:  Auto                                                                           
+ 
+Nuclear Charges and Cartesian Coordinates:
+-------------------------------------------------------------------------------
+Atom      Charge                X                  Y                  Z
+-------------------------------------------------------------------------------
+C1         6.0           3.3070000000E-04   5.4800000000E-05  -9.4053370000E-01
+H2         1.0           3.5900000000E-05  -1.9701717700E+00  -1.1730021400E+00
+H3         1.0          -1.7221301000E+00   9.9468570000E-01  -1.1739829100E+00
+H4         1.0           1.7229578000E+00   9.9424539000E-01  -1.1745970700E+00
+Cl5       17.0           1.0488000000E-03   1.8179200000E-03   3.1080665900E+00
+F6         9.0          -3.5149000000E-04  -1.7404400000E-03  -4.9009291400E+00
+
+Total number of electron density critical points found =     11
+
+Electron Density Critical Point Analysis of Molecular Structure:
+---------------------------------------------------------------
+  NACP = Nuclear Attractor Critical Point
+  NNACP = Non-Nuclear Attractor Critical Point
+  BCP = Bond Critical Point
+  RCP = Ring Critical Point
+  CCP = Cage Critical Point
+  Rho = Electron Density
+  GradRho = Gradient of Electron Density
+  HessRho_EigVals = Eigenvalues of the Hessian of Rho, Ascending Order
+  HessRho_EigVecs = Eigenvectors of the Hessian of Rho
+  DelSqRho = Laplacian of Rho = Trace of Hessian of Rho
+  Bond Ellipticity = (HessRho_EigVal(1) / HessRho_EigVal(2)) - 1
+  V = Virial Field = Potential Energy Density = Trace of Stress Tensor
+  G = Lagrangian Form of Kinetic Energy Density
+  K = Hamiltonian Form of Kinetic Energy Density
+  L = K - G = Lagrangian Density = (-1/4)DelSqRho
+  Vnuc = Electrostatic Potential from Nuclei
+  Ven = Electron-nuclear attractive contribution to Virial Field V
+  Vrep = V - Ven = Repulsive contribution to Virial Field V
+  DelSqV = Laplacian of V
+  DelSqVen = Laplacian of Ven
+  DelSqVrep = Laplacian of Vrep
+  DelSqG = Laplacian of G
+  DelSqK = Laplacian of K
+  Stress_EigVals = Eigenvalues of Stress Tensor, Ascending Order
+  Stress_EigVecs = Eigenvectors of Stress Tensor
+  -DivStress = Ehrenfest Force Density = Minus Divergence of Stress Tensor
+  ESP = Total Electrostatic Potential
+  ESPe = Electrostatic Potential from Electrons
+  ESPn = Electrostatic Potential from Nuclei
+  BP = Bond Path
+  BPL = Bond Path Length
+  GBL = Geometric Bond Length
+  GBL_I = Distance Between Nuclear Attractors
+  GBL_II = Distance Between Nuclei
+  GBL_III = Sum of Distances Between BCP and Nuclear Attractors
+  GBL_IV = Sum of Distances Between BCP and Nuclei
+
+CP# 1      Coords =  3.30700484133271E-04  5.49470879090459E-05 -9.40530811634117E-01
+           Type = (3,-3) NACP C1
+           Rho =  1.2141206731E+02     Rho at Nucleus =  1.2141206627E+02
+           GradRho =  4.8254957422E-15  6.4641788057E-16 -4.7823923545E-13
+           HessRho_EigVals = -2.4894000430E+05 -2.4893289945E+05 -2.4893282654E+05
+           HessRho_EigVec1 =  1.7737106112E-04 -1.2596731561E-03  9.9999919088E-01
+           HessRho_EigVec2 =  9.9999995316E-01 -2.4919532408E-04 -1.7768510124E-04
+           HessRho_EigVec3 =  2.4941894760E-04  9.9999917556E-01  1.2596288970E-03
+           DelSqRho = -7.4680573029E+05
+           Bond Ellipticity = NA
+           V = -1.8671499056E+05
+           G =  6.7789923234E+00
+           K =  1.8670821156E+05
+           L =  1.8670143257E+05
+           Vnuc =  2.0746188152E+06
+           Ven = -2.5188375923E+08
+           Vrep =  2.5169704424E+08
+           DelSqV =  1.1231886254E+10
+           DelSqVen =  1.5493372314E+12
+           DelSqVrep = -1.5381053451E+12
+           DelSqG =  3.8282900000E+08
+           DelSqK = -1.1614715254E+10
+           Stress_EigVals = -6.2239065841E+04 -6.2239042013E+04 -6.2236882703E+04
+           Stress_EigVec1 =  2.6435459000E-04  9.9999935839E-01  1.1015140018E-03
+           Stress_EigVec2 =  9.9999994933E-01 -2.6415906190E-04 -1.7765020957E-04
+           Stress_EigVec3 =  1.7735912068E-04 -1.1015609087E-03  9.9999937755E-01
+           -DivStress = -1.7796738471E+00 -5.4110424788E+02 -1.0617686832E+04
+           ESP =  -1.4870530278E+01     ESP at Nucleus =  -1.4870530301E+01
+           ESPe = -2.2844743377E+01     ESPe at Nucleus = -2.2844742316E+01
+           ESPn =  7.9742130985E+00     ESPn at Nucleus =  7.9742120150E+00
+
+CP# 2      Coords =  4.12035965968896E-05 -1.93596229417405E+00 -1.16791200348068E+00
+           Type = (3,-3) NACP H2
+           Rho =  4.5477113463E-01     Rho at Nucleus =  4.4969211348E-01
+           GradRho = -1.8813833313E-18  1.7172312014E-15 -7.4367905782E-16
+           HessRho_EigVals = -9.1053865918E+00 -9.0917095487E+00 -8.1115642095E+00
+           HessRho_EigVec1 =  1.5380439484E-04 -1.3796824713E-01  9.9043664064E-01
+           HessRho_EigVec2 =  9.9999997663E-01 -1.2926481843E-04 -1.7329612477E-04
+           HessRho_EigVec3 =  1.5193797509E-04  9.9043664415E-01  1.3796822403E-01
+           DelSqRho = -2.6308660350E+01
+           Bond Ellipticity = NA
+           V = -6.6060297833E+00
+           G =  1.4432347890E-02
+           K =  6.5915974354E+00
+           L =  6.5771650875E+00
+           Vnuc =  3.8341560102E+01
+           Ven = -1.7436634791E+01
+           Vrep =  1.0830605008E+01
+           DelSqV =  1.6795066103E+03
+           DelSqVen =  1.0087150820E+03
+           DelSqVrep =  6.7079152827E+02
+           DelSqG =  1.2827161417E+02
+           DelSqK = -1.8077782245E+03
+           Stress_EigVals = -2.2852826295E+00 -2.2830336669E+00 -2.0377134869E+00
+           Stress_EigVec1 =  1.5299898101E-04 -1.3735207459E-01  9.9052227850E-01
+           Stress_EigVec2 =  9.9999997676E-01 -1.2941390056E-04 -1.7240828287E-04
+           Stress_EigVec3 =  1.5186798698E-04  9.9052228186E-01  1.3735205159E-01
+           -DivStress = -2.9042451993E-03 -1.8732392946E+01 -2.7874844669E+00
+           ESP =  -1.2615983477E+00     ESP at Nucleus =  -1.2638411279E+00
+           ESPe = -1.0689802111E+01     ESPe at Nucleus = -1.0613102258E+01
+           ESPn =  9.4282037637E+00     ESPn at Nucleus =  9.3492611304E+00
+
+CP# 3      Coords = -1.69291710861184E+00  9.77822217368994E-01 -1.16897806975108E+00
+           Type = (3,-3) NACP H3
+           Rho =  4.4817045821E-01     Rho at Nucleus =  4.4329384584E-01
+           GradRho =  4.5042636028E-13 -2.5985793698E-13  7.5978431431E-14
+           HessRho_EigVals = -8.9791967008E+00 -8.9658437833E+00 -8.0227409782E+00
+           HessRho_EigVec1 = -1.1885525285E-01  6.9037673311E-02  9.9050857065E-01
+           HessRho_EigVec2 =  4.9995364007E-01  8.6605208831E-01 -3.7163215821E-04
+           HessRho_EigVec3 =  8.5785767272E-01 -4.9516419499E-01  1.3745047601E-01
+           DelSqRho = -2.5967781462E+01
+           Bond Ellipticity = NA
+           V = -6.5197660926E+00
+           G =  1.3910363496E-02
+           K =  6.5058557291E+00
+           L =  6.4919453656E+00
+           Vnuc =  3.8711180014E+01
+           Ven = -1.7349207285E+01
+           Vrep =  1.0829441192E+01
+           DelSqV =  1.6596798139E+03
+           DelSqVen =  1.0052434627E+03
+           DelSqVrep =  6.5443635115E+02
+           DelSqG =  1.2677886530E+02
+           DelSqK = -1.7864586792E+03
+           Stress_EigVals = -2.2534107373E+00 -2.2511035641E+00 -2.0152517912E+00
+           Stress_EigVec1 = -1.1834354171E-01  6.8677322862E-02  9.9059488766E-01
+           Stress_EigVec2 =  4.9995229226E-01  8.6605288881E-01 -3.1503181786E-04
+           Stress_EigVec3 =  8.5792919965E-01 -4.9521290280E-01  1.3682715116E-01
+           -DivStress = -1.5792468901E+01  9.1164053436E+00 -2.7057622512E+00
+           ESP =  -1.2608198744E+00     ESP at Nucleus =  -1.2627030037E+00
+           ESPe = -1.0646667491E+01     ESPe at Nucleus = -1.0571667784E+01
+           ESPn =  9.3858476169E+00     ESPn at Nucleus =  9.3089647800E+00
+
+CP# 4      Coords =  1.69374219175888E+00  9.77389279991272E-01 -1.16958174197587E+00
+           Type = (3,-3) NACP H4
+           Rho =  4.4817160358E-01     Rho at Nucleus =  4.4329494221E-01
+           GradRho = -4.4959105418E-13 -2.6008596431E-13  7.5645448945E-14
+           HessRho_EigVals = -8.9792182282E+00 -8.9658650795E+00 -8.0227537787E+00
+           HessRho_EigVec1 =  1.1922439865E-01  6.9012294243E-02  9.9046597418E-01
+           HessRho_EigVec2 = -4.9973391870E-01  8.6617894868E-01 -1.9841219634E-04
+           HessRho_EigVec3 =  8.5793446910E-01  4.9494578705E-01 -1.3775744852E-01
+           DelSqRho = -2.5967837086E+01
+           Bond Ellipticity = NA
+           V = -6.5197802033E+00
+           G =  1.3910465852E-02
+           K =  6.5058697375E+00
+           L =  6.4919592716E+00
+           Vnuc =  3.8711077932E+01
+           Ven = -1.7349205873E+01
+           Vrep =  1.0829425670E+01
+           DelSqV =  1.6596828334E+03
+           DelSqVen =  1.0052429652E+03
+           DelSqVrep =  6.5443986817E+02
+           DelSqG =  1.2677909189E+02
+           DelSqK = -1.7864619252E+03
+           Stress_EigVals = -2.2534162070E+00 -2.2511089649E+00 -2.0152550314E+00
+           Stress_EigVec1 =  1.1871225487E-01  6.8652680983E-02  9.9055247712E-01
+           Stress_EigVec2 = -4.9973265717E-01  8.6617968751E-01 -1.4251359596E-04
+           Stress_EigVec3 =  8.5800621903E-01  4.9499450335E-01 -1.3713413052E-01
+           -DivStress =  1.5793916692E+01  9.1124389294E+00 -2.7114377406E+00
+           ESP =  -1.2608202486E+00     ESP at Nucleus =  -1.2627034479E+00
+           ESPe = -1.0646684143E+01     ESPe at Nucleus = -1.0571684074E+01
+           ESPn =  9.3858638943E+00     ESPn at Nucleus =  9.3089806263E+00
+
+CP# 5      Coords =  1.04879998648971E-03  1.81791983575090E-03  3.10806651424667E+00
+           Type = (3,-3) NACP Cl5
+           Rho =  3.1725874779E+03     Rho at Nucleus =  3.1725874775E+03
+           GradRho =  1.3279946647E-11 -1.4682064444E-11  1.3131920343E-08
+           HessRho_EigVals = -1.3891679615E+08 -1.3891657262E+08 -1.3891657252E+08
+           HessRho_EigVec1 =  1.7767941990E-04  1.0809057783E-03  9.9999940004E-01
+           HessRho_EigVec2 =  2.7807882699E-04  9.9999937710E-01 -1.0809551624E-03
+           HessRho_EigVec3 =  9.9999994555E-01 -2.7827072364E-04 -1.7737873221E-04
+           DelSqRho = -4.1674994129E+08
+           Bond Ellipticity = NA
+           V = -1.0421593136E+08
+           G =  1.4223017561E+04
+           K =  1.0420170834E+08
+           L =  1.0418748532E+08
+           Vnuc =  2.2441206018E+08
+           Ven = -7.1196689202E+11
+           Vrep =  7.1186267609E+11
+           DelSqV =  3.3656978394E+14
+           DelSqVen =  9.3523703144E+16
+           DelSqVrep = -9.3187133360E+16
+           DelSqG =  4.5632222237E+12
+           DelSqK = -3.4113300616E+14
+           Stress_EigVals = -3.4738662521E+07 -3.4738662496E+07 -3.4738606341E+07
+           Stress_EigVec1 =  9.9999994562E-01 -2.7802295937E-04 -1.7738068527E-04
+           Stress_EigVec2 =  2.7782985218E-04  9.9999936980E-01 -1.0877570666E-03
+           Stress_EigVec3 =  1.7768299492E-04  1.0877077258E-03  9.9999939266E-01
+           -DivStress =  1.5051238183E+03  1.8294736713E+04  8.4393709194E+06
+           ESP =  -6.4638322201E+01     ESP at Nucleus =  -6.4638322202E+01
+           ESPe = -6.7879820587E+01     ESPe at Nucleus = -6.7879820540E+01
+           ESPn =  3.2414983863E+00     ESPn at Nucleus =  3.2414983387E+00
+
+CP# 6      Coords = -3.51489880653857E-04 -1.74044138613196E-03 -4.90092842694369E+00
+           Type = (3,-3) NACP F6
+           Rho =  4.3109853009E+02     Rho at Nucleus =  4.3109852958E+02
+           GradRho =  1.4754379912E-12 -1.6662172761E-11  8.6809151663E-09
+           HessRho_EigVals = -2.0428393318E+06 -2.0428267161E+06 -2.0428267049E+06
+           HessRho_EigVec1 =  1.6710918879E-04 -3.4353230484E-04  9.9999992703E-01
+           HessRho_EigVec2 = -9.9878114520E-05  9.9999993600E-01  3.4354899847E-04
+           HessRho_EigVec3 =  9.9999998105E-01  9.9935517427E-05 -1.6707486674E-04
+           DelSqRho = -6.1284927528E+06
+           Bond Ellipticity = NA
+           V = -1.5324321048E+06
+           G =  1.5445828374E+02
+           K =  1.5322776465E+06
+           L =  1.5321231882E+06
+           Vnuc =  1.2621704422E+07
+           Ven = -5.4411982235E+09
+           Vrep =  5.4396657914E+09
+           DelSqV =  2.1792656643E+11
+           DelSqVen =  7.7352025457E+13
+           DelSqVrep = -7.7134098890E+13
+           DelSqG =  7.2617620753E+09
+           DelSqK = -2.2518832850E+11
+           Stress_EigVals = -5.1081174081E+05 -5.1081173811E+05 -5.1080862585E+05
+           Stress_EigVec1 =  9.9999997611E-01  1.4103657883E-04 -1.6699910702E-04
+           Stress_EigVec2 = -1.4097966237E-04  9.9999993200E-01  3.4078172591E-04
+           Stress_EigVec3 =  1.6704715835E-04 -3.4075817429E-04  9.9999992799E-01
+           -DivStress = -8.5075647263E+00  9.8875664197E+01 -5.0830881694E+04
+           ESP =  -2.6928479079E+01     ESP at Nucleus =  -2.6928479082E+01
+           ESPe = -3.1276716172E+01     ESPe at Nucleus = -3.1276715607E+01
+           ESPn =  4.3482370930E+00     ESPn at Nucleus =  4.3482365253E+00
+
+CP# 7      Coords =  1.38765344133745E-04 -1.29702378076908E+00 -1.08156174206617E+00
+           Type = (3,-1) BCP C1 H2
+           Rho =  3.2446072647E-01
+           GradRho = -4.5683559511E-17 -8.6949312080E-14  7.6475206142E-14
+           HessRho_EigVals = -9.9961761009E-01 -9.5595510991E-01  5.0756434910E-01
+           HessRho_EigVec1 =  1.5723023090E-04 -1.3067301104E-01  9.9142550878E-01
+           HessRho_EigVec2 =  9.9999997627E-01 -1.2898011621E-04 -1.7559004260E-04
+           HessRho_EigVec3 =  1.5081905691E-04  9.9142551286E-01  1.3067298766E-01
+           DelSqRho = -1.4480083709E+00
+           Bond Ellipticity =  4.5674215999E-02
+           V = -4.5417430941E-01
+           G =  4.6086108342E-02
+           K =  4.0808820107E-01
+           L =  3.6200209272E-01
+           Vnuc =  1.2875254545E+01
+           Ven = -4.1775144431E+00
+           Vrep =  3.7233401337E+00
+           DelSqV = -2.5135737143E+00
+           DelSqVen =  1.8643476358E+01
+           DelSqVrep = -2.1157050073E+01
+           DelSqG =  1.9801740160E+00
+           DelSqK =  5.3339969830E-01
+           Stress_EigVals = -2.8315748476E-01 -2.7669538025E-01  1.0567855560E-01
+           Stress_EigVec1 =  9.9999997576E-01 -1.2864476303E-04 -1.7869957363E-04
+           Stress_EigVec2 =  1.6076497328E-04 -1.2798760474E-01  9.9177575449E-01
+           Stress_EigVec3 =  1.5045808731E-04  9.9177575917E-01  1.2798758096E-01
+           -DivStress = -4.2608645952E-06 -1.5855963917E-02 -1.2202304078E-02
+           ESP =   7.7295536711E-01
+           ESPe = -1.2102299178E+01
+           ESPn =  1.2875254545E+01
+           BPL =  1.9497231945E+00 =  1.3049735429E+00 +  6.4474965158E-01
+           GBL_I =  1.9493242544E+00
+           GBL_II =  1.9838937471E+00
+           GBL_III =  1.9494704202E+00 =  1.3047233371E+00 +  6.4474708303E-01
+           GBL_IV =  1.9840531168E+00 =  1.3047228787E+00 +  6.7933023807E-01
+
+CP# 8      Coords =  2.17369708808067E-05 -2.09092883613596E-03 -2.75728816777693E+00
+           Type = (3,-1) BCP C1 F6
+           Rho =  4.6119821900E-02
+           GradRho = -1.0502680751E-17 -6.0666705824E-15  7.5229931345E-15
+           HessRho_EigVals = -3.8375648530E-02 -3.8221314101E-02  2.3489882373E-01
+           HessRho_EigVec1 =  9.9999803667E-01 -1.9737087940E-03 -1.7646111429E-04
+           HessRho_EigVec2 =  1.9738102007E-03  9.9999788594E-01  5.7635333662E-04
+           HessRho_EigVec3 =  1.7532318759E-04 -5.7670050579E-04  9.9999981834E-01
+           DelSqRho =  1.5830186110E-01
+           Bond Ellipticity =  4.0379153187E-03
+           V = -4.4928208025E-02
+           G =  4.2251836650E-02
+           K =  2.6763713758E-03
+           L = -3.9575465274E-02
+           Vnuc =  1.1581744694E+01
+           Ven = -5.3414800259E-01
+           Vrep =  4.8921979457E-01
+           DelSqV = -3.9612080900E-01
+           DelSqVen = -1.8334117398E+00
+           DelSqVrep =  1.4372909308E+00
+           DelSqG =  2.8789454679E-01
+           DelSqK =  1.0822626220E-01
+           Stress_EigVals = -2.4698090989E-02 -2.4690309653E-02  4.4601926167E-03
+           Stress_EigVec1 =  4.6522623277E-04  9.9999978651E-01 -4.5884381089E-04
+           Stress_EigVec2 =  9.9999987704E-01 -4.6530496086E-04 -1.7148746107E-04
+           Stress_EigVec3 =  1.7170092676E-04  4.5876397400E-04  9.9999988003E-01
+           -DivStress =  3.4883346052E-06  1.8620896776E-05  2.0411643718E-02
+           ESP =  -1.7921386470E-02
+           ESPe = -1.1599666081E+01
+           ESPn =  1.1581744694E+01
+           BPL =  3.9604494217E+00 =  1.8168090886E+00 +  2.1436403330E+00
+           GBL_I =  3.9603980810E+00
+           GBL_II =  3.9603959056E+00
+           GBL_III =  3.9603989700E+00 =  1.8167586497E+00 +  2.1436403203E+00
+           GBL_IV =  3.9603967946E+00 =  1.8167557612E+00 +  2.1436410334E+00
+
+CP# 9      Coords = -1.13639436006087E+00  6.56606914543783E-01 -1.08256960620940E+00
+           Type = (3,-1) BCP C1 H3
+           Rho =  3.1734862674E-01
+           GradRho = -8.9969621518E-16  5.0356235049E-16  8.2793189677E-17
+           HessRho_EigVals = -9.6981151671E-01 -9.2830043643E-01  5.1058124266E-01
+           HessRho_EigVec1 = -1.1261070789E-01  6.4686157641E-02  9.9153140620E-01
+           HessRho_EigVec2 =  4.9981260158E-01  8.6613353238E-01  2.5959910197E-04
+           HessRho_EigVec3 =  8.5878180684E-01 -4.9560912532E-01  1.2986686694E-01
+           DelSqRho = -1.3875307105E+00
+           Bond Ellipticity =  4.4717290498E-02
+           V = -4.3549067722E-01
+           G =  4.4303999800E-02
+           K =  3.9118667742E-01
+           L =  3.4688267762E-01
+           Vnuc =  1.2806026070E+01
+           Ven = -4.0639747874E+00
+           Vrep =  3.6284841102E+00
+           DelSqV = -2.5043778835E+00
+           DelSqVen =  1.7768754452E+01
+           DelSqVrep = -2.0273132335E+01
+           DelSqG =  1.9009931426E+00
+           DelSqK =  6.0338474094E-01
+           Stress_EigVals = -2.7407319274E-01 -2.6811397834E-01  1.0669649387E-01
+           Stress_EigVec1 =  4.9968188723E-01  8.6620760094E-01  1.5503706280E-03
+           Stress_EigVec2 = -1.1099428054E-01  6.2253051567E-02  9.9186935998E-01
+           Stress_EigVec3 =  8.5906826345E-01 -4.9579123595E-01  1.2725081176E-01
+           -DivStress = -1.6446246354E-02  9.2423753940E-03 -1.2074003909E-02
+           ESP =   7.5089955364E-01
+           ESPe = -1.2055126517E+01
+           ESPn =  1.2806026070E+01
+           BPL =  1.9689822776E+00 =  1.3206252854E+00 +  6.4835699215E-01
+           GBL_I =  1.9685794695E+00
+           GBL_II =  2.0026633188E+00
+           GBL_III =  1.9687251935E+00 =  1.3203709208E+00 +  6.4835427276E-01
+           GBL_IV =  2.0028221567E+00 =  1.3203706828E+00 +  6.8245147397E-01
+
+CP# 10     Coords =  6.26043568832174E-04  6.77595200832238E-04  7.24301791866166E-01
+           Type = (3,-1) BCP Cl5 C1
+           Rho =  8.0638266738E-02
+           GradRho = -2.3150745628E-17 -1.3580049286E-17  4.6123429111E-17
+           HessRho_EigVals = -8.4425201491E-02 -8.4354614645E-02  2.0944595575E-01
+           HessRho_EigVec1 =  9.9999997922E-01 -1.0096873015E-04 -1.7712430648E-04
+           HessRho_EigVec2 =  1.0087941859E-04  9.9999986782E-01 -5.0416748805E-04
+           HessRho_EigVec3 =  1.7717518822E-04  5.0414960937E-04  9.9999985722E-01
+           DelSqRho =  4.0666139618E-02
+           Bond Ellipticity =  8.3678701598E-04
+           V = -6.9120454869E-02
+           G =  3.9643494887E-02
+           K =  2.9476959982E-02
+           L = -1.0166534905E-02
+           Vnuc =  1.3428427640E+01
+           Ven = -1.0828451299E+00
+           Vrep =  1.0137246750E+00
+           DelSqV = -4.4034971692E-01
+           DelSqVen = -5.4608231327E-01
+           DelSqVrep =  1.0573259635E-01
+           DelSqG =  2.9819375241E-01
+           DelSqK =  1.4215596451E-01
+           Stress_EigVals = -4.1846620606E-02 -4.1834358694E-02  1.4560524431E-02
+           Stress_EigVec1 =  1.2657945103E-04  9.9999991056E-01 -4.0355019318E-04
+           Stress_EigVec2 =  9.9999997625E-01 -1.2665104015E-04 -1.7737767902E-04
+           Stress_EigVec3 =  1.7742877321E-04  4.0352773122E-04  9.9999990284E-01
+           -DivStress = -7.3374273794E-06 -3.0036846912E-05 -4.1288700512E-02
+           ESP =   1.7996004740E-01
+           ESPe = -1.3248467593E+01
+           ESPn =  1.3428427640E+01
+           BPL =  4.0485990184E+00 =  2.3837650342E+00 +  1.6648339842E+00
+           GBL_I =  4.0485977734E+00
+           GBL_II =  4.0486007376E+00
+           GBL_III =  4.0485977788E+00 =  2.3837650326E+00 +  1.6648327461E+00
+           GBL_IV =  4.0486007429E+00 =  2.3837651084E+00 +  1.6648356346E+00
+
+CP# 11     Coords =  1.13716991657226E+00  6.56316380610746E-01 -1.08297445968339E+00
+           Type = (3,-1) BCP H4 C1
+           Rho =  3.1735013631E-01
+           GradRho =  5.1277852612E-16  1.8910652559E-16 -1.5388042544E-16
+           HessRho_EigVals = -9.6981842875E-01 -9.2830698723E-01  5.1058169750E-01
+           HessRho_EigVec1 =  1.1297995429E-01  6.4660224053E-02  9.9149109192E-01
+           HessRho_EigVec2 = -4.9959239004E-01  8.6626050041E-01  4.3502896580E-04
+           HessRho_EigVec3 =  8.5886144036E-01  4.9539055387E-01 -1.3017382761E-01
+           DelSqRho = -1.3875437185E+00
+           Bond Ellipticity =  4.4717364083E-02
+           V = -4.3549447594E-01
+           G =  4.4304273159E-02
+           K =  3.9119020278E-01
+           L =  3.4688592962E-01
+           Vnuc =  1.2806044476E+01
+           Ven = -4.0639999599E+00
+           Vrep =  3.6285054840E+00
+           DelSqV = -2.5043941213E+00
+           DelSqVen =  1.7768946571E+01
+           DelSqVrep = -2.0273340692E+01
+           DelSqG =  1.9010101602E+00
+           DelSqK =  6.0338396107E-01
+           Stress_EigVals = -2.7407511466E-01 -2.6811592845E-01  1.0669656717E-01
+           Stress_EigVec1 = -4.9946088537E-01  8.6633471267E-01  1.7290493631E-03
+           Stress_EigVec2 =  1.1136462398E-01  6.2224623475E-02  9.9182963091E-01
+           Stress_EigVec3 =  8.5914884887E-01  4.9557266052E-01 -1.2755780505E-01
+           -DivStress =  1.6446317125E-02  9.2394067785E-03 -1.2080760891E-02
+           ESP =   7.5090391549E-01
+           ESPe = -1.2055140560E+01
+           ESPn =  1.2806044476E+01
+           BPL =  1.9689782617E+00 =  6.4835549828E-01 +  1.3206227634E+00
+           GBL_I =  1.9685754255E+00
+           GBL_II =  2.0026594109E+00
+           GBL_III =  1.9687211610E+00 =  6.4835277864E-01 +  1.3203683824E+00
+           GBL_IV =  2.0028182615E+00 =  6.8245011721E-01 +  1.3203681443E+00
+
+Number of NACPs  =      6
+Number of NNACPs =      0
+Number of BCPs   =      5
+Number of RCPs   =      0
+Number of CCPs   =      0
+NumNACP + NumNNACP - NumBCP + NumRCP - NumCCP =      1
+Poincare-Hopf Relationship is Satisfied
+
+Bond Path Angles and Corresponding Geometric Bond Angles:
+--------------------------------------------------------
+  BPA     = A-B-C Bond Path Angle
+  GBA_I   = A-B-C Geometric Bond Angle in Terms of Nuclear Attractors
+  GBA_II  = A-B-C Geometric Bond Angle in Terms of Nuclei
+  GBA_III = A-B-C Geometric Bond Angle in Terms of A|B and C|B BCPs and Nuclear Attractor B
+  GBA_IV  = A-B-C Geometric Bond Angle in Terms of A|B and C|B BCPs and Nucleus B
+-------------------------------------------------------------------------------------------------
+Atom A    Atom B    Atom C        BPA          GBA_I         GBA_II       GBA_III       GBA_IV
+-------------------------------------------------------------------------------------------------
+F6        C1        H2         84.61936331   83.27544218   83.24476940   83.72694972   83.72707965
+H3        C1        H2        119.40087457  118.66136667  118.64918884  118.85403937  118.85409080
+H3        C1        F6         85.69434773   83.34043890   83.31028924   83.84987497   83.84999766
+Cl5       C1        H2         94.63535923   96.72353326   96.75421023   96.22680369   96.22668332
+Cl5       C1        F6        179.25472014  179.99893428  179.99893831  179.95375145  179.95376100
+Cl5       C1        H3         94.68082428   96.66032740   96.69047495   96.17362266   96.17349519
+H4        C1        H2        119.40106042  118.66151590  118.64933749  118.85419251  118.85424395
+H4        C1        F6         85.69117504   83.33982427   83.30967314   83.84905361   83.84917630
+H4        C1        H3        119.23471225  118.67345501  118.66178955  118.84852496  118.84855992
+H4        C1        Cl5        94.68072549   96.66043401   96.69058303   96.17370569   96.17357823
+
+ Total time for electron density critical point search, analysis and connectivity = 133 sec (NProc = 12)           

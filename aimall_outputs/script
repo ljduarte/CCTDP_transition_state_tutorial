@@ -1,0 +1,12 @@
+#!/bin/bash
+A='GAUSSIAN-XF_6.wfn  GAUSSIAN-XH_3.wfn  GAUSSIAN-YC_1.wfn   GAUSSIAN-YF_6.wfn  GAUSSIAN-YH_3.wfn  GAUSSIAN-ZC_1.wfn   GAUSSIAN-ZF_6.wfn  GAUSSIAN-ZH_3.wfn'
+B='GAUSSIAN-XC_1.wfn   GAUSSIAN+XF_6.wfn  GAUSSIAN+XH_3.wfn  GAUSSIAN+YC_1.wfn   GAUSSIAN+YF_6.wfn  GAUSSIAN+YH_3.wfn  GAUSSIAN+ZC_1.wfn   GAUSSIAN+ZF_6.wfn  GAUSSIAN+ZH_3.wfn'
+C='GAUSSIAN+XC_1.wfn   GAUSSIAN-XH_2.wfn  GAUSSIAN-XH_4.wfn  GAUSSIAN-YCl_5.wfn  GAUSSIAN-YH_2.wfn  GAUSSIAN-YH_4.wfn  GAUSSIAN-ZCl_5.wfn  GAUSSIAN-ZH_2.wfn  GAUSSIAN-ZH_4.wfn'
+D='GAUSSIAN+XCl_5.wfn  GAUSSIAN+XH_2.wfn  GAUSSIAN+XH_4.wfn  GAUSSIAN+YCl_5.wfn  GAUSSIAN+YH_2.wfn  GAUSSIAN+YH_4.wfn  GAUSSIAN+ZCl_5.wfn  GAUSSIAN+ZH_2.wfn  GAUSSIAN+ZH_4.wfn'
+
+for a in $A; do /usr/local/AIMAll/aimqb.ish -nogui -nproc=12 $a; done &
+for b in $B; do /usr/local/AIMAll/aimqb.ish -nogui -nproc=12 $b; done &
+for c in $C; do /usr/local/AIMAll/aimqb.ish -nogui -nproc=12 $c; done &
+for d in $D; do /usr/local/AIMAll/aimqb.ish -nogui -nproc=12 $d; done &
+
+

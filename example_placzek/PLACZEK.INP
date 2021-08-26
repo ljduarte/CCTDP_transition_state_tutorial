@@ -1,0 +1,19 @@
+*RUNCTRL
+RESTART
+.FRIEND
+AIMAll
+.FPATH
+/home/bruns/programas/chemistry/gaussian/g09/g09
+/usr/local/AIMAll/aimqb.ish -nogui -nproc=8
+*VIBANA
+GAUHESS
+*INFRARED
+SUMTERM
+ANGSTRON
+MP2
+RUN
+.DQ
+0.01
+ALLMODES
+*END OF
+
